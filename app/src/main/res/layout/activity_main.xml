@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.kechaval.mysaveinstance.MainActivity">
+    <TextView
+        android:id="@+id/tvSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Instance"
+        android:textAlignment="center"/>
+
+    <!--  ET Dato 1 -->
+
+        <EditText
+            android:id="@+id/etDato1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:hint="Ingresar Dato 1"
+            android:inputType="textEmailAddress"/>
+
+    <!--  ET Dato 2 -->
+
+        <EditText
+            android:id="@+id/etDato2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:hint="Ingresar Dato 2"
+            android:inputType="textEmailAddress"/>
+
+    <!--  ET Dato 3 -->
+
+        <EditText
+            android:id="@+id/etDato3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:hint="Ingresar Dato 3"
+            android:inputType="textEmailAddress"/>
+
+    <!--  ET Dato 4 -->
+
+        <EditText
+            android:id="@+id/etDato4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:hint="Ingresar Dato 4"
+            android:inputType="textEmailAddress"/>
+
+    <!--  ET Dato 5 -->
+
+        <EditText
+            android:id="@+id/etDato5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/colorPrimary"
+            android:hint="Ingresar Dato 5"
+            android:inputType="textEmailAddress"/>
+    <TextView
+        android:id="@+id/tvTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
